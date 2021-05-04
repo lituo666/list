@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JVI2v6WkARk/tvZM4v5o2Q
+! Checksum: YFXUlCFccjnhKAlYBQTpJQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202105010417
-! Last Modified: 2021年05月01日 04:17
+! Version: 202105040846
+! Last Modified: 2021年05月04日 08:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -597,7 +597,7 @@ actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,hawak.tv,lodynet.co,lo
 egy.best,egybest.asia,egybest.bid,egybest.biz,egybest.cheap,egybest.co,egybest.com,egybest.cool,egybest.fail,egybest.life,egybest.ltd,egybest.ist,egybest.name,egybest.net,egybest.network,egybest.ninja,egybest.nl,egybest.online,egybest.org,egybest.pw,egybest.rocks,egybest.site,egybest.xyz,egybest.zone,egybest2.com,iegy.best#$#abort-on-property-read open
 arabseed.me,baramjak.com,hawak.net,movizland.com,movizland.online,egyanime.com,egydead.com#$#abort-current-inline-script String.fromCharCode /btoa|break/
 ! #CV-754
-akwam.cc,akoam.com,akoam.net,akwam.co,akwam.cx,akwam.net,akwam.org,gocoo.co#$#abort-on-property-read String.fromCharCode
+akwam.cc,akoam.com,akoam.net,akwam.co,akwam.cx,akwam.net,akwam.org,gateanime.com,gocoo.co#$#abort-on-property-read String.fromCharCode
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/bulgarian.txt ***
 ! #CV-667
 gledaiseriali.net#$#abort-current-inline-script Math zfgloaded
@@ -1551,7 +1551,7 @@ french-streams.com#$#abort-on-property-read open
 batporno.com#$#abort-on-property-read decodeURI
 jetanimes.co#$#abort-on-property-read atob
 vostfree.com#$#abort-on-property-write _pop
-summarynetworks.com,ed-protect.org,extreme-d0wn.com,extreme-d0wn.net,extreme-down.in,extreme-down.ninja,extreme-down.one,extreme-down.pro,extreme-down.top,extreme-down.tv,extrem-down.vip,extreme-down.video,extreme-down.xyz,extreme-download.cc,extreme-download.ch,extreme-download.im,extreme-download.me,extreme-download.ninja,extreme-download.xyz,japscan.cc,japscan.com,japscan.se,japscan.to,dl-protect.best,dl-protect.top,dl-protect.xyz,dl-protect1.com,hdss.la,vostfree.com,wawacity.co,wawacity.ec,wawacity.ninja,wawacity.vip,streaming-vostfr.net,hdss.to#$#abort-current-inline-script String.fromCharCode /btoa|break/
+summarynetworks.com,ed-protect.org,extreme-d0wn.com,extreme-d0wn.net,extreme-down.in,extreme-down.ninja,extreme-down.one,extreme-down.pro,extreme-down.top,extreme-down.tv,extrem-down.vip,extreme-down.video,extreme-down.xyz,extreme-download.cc,extreme-download.ch,extreme-download.im,extreme-download.me,extreme-download.ninja,extreme-download.xyz,french-stream.lol,japscan.cc,japscan.com,japscan.se,japscan.to,lelscan-vf.co,dl-protect.best,dl-protect.top,dl-protect.xyz,dl-protect1.com,hdss.la,vostfree.com,wawacity.co,wawacity.ec,wawacity.ninja,wawacity.vip,streaming-vostfr.net,hdss.to#$#abort-current-inline-script String.fromCharCode /btoa|break/
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/german.txt ***
 ! #CV-664
 news.de#$#hide-if-contains-image-hash ffffffffffff7fff7fff7fff7fff7fff7fff7fff7fff7fff7fff7fff7fff7fff * 0 16 777x0x800x23; hide-if-contains-image-hash 3fff3fff3fff3fff3fff3fff3fff3fff3fff3fff3fff3fff3fff3fffbfffbfff * 0 16 279x0x300x21
@@ -1665,7 +1665,7 @@ yandex.az,yandex.md,yandex.fr,yandex.kg##.feed__item._size_small[id^=ad]
 yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr##div[class="feed__item _size_big"]>[class^="card-wrapper_smthing"]
 avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
-liveinternet.ru#$#abort-on-property-read Object.prototype.buildRequestAdUnits; abort-on-property-read Object.prototype.isAdBlocked; abort-on-property-read Object.prototype.isAllCookies
+liveinternet.ru#$#abort-on-property-read Object.prototype.dataSource; abort-on-property-read Object.prototype.buildRequestAdUnits; abort-on-property-read Object.prototype.isAdBlocked; abort-on-property-read Object.prototype.isAllCookies
 echo.msk.ru#$#abort-on-property-read Object.prototype.onRender
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
 sdamgia.ru#$#abort-on-property-read Object.prototype.adSessionId
@@ -1848,8 +1848,6 @@ faz.net#@#.js-sharebuttons
 ! FDA-2068
 boerse-online.de#@#.social_icons
 boerse-online.de#@#.social_wrapper
-! FDA-2145
-@@||googletagmanager.com/gtm.js$script,domain=finanzen.ch
 ! AakList (Anti-Adblock Killer)
 ! ----- Anti-Adblockers ------------------------------------------------------------------------------------------------------------------- !
 ! ----- Generic ----- !
